@@ -1,0 +1,10 @@
+{
+			"name": "html5nado-websocket-sample"
+		, "version": "1.0.0"
+		, "dependencies": {
+				"express": "2.4.3"
+			, "websocket-server": "1.4.04"
+			, "pusher": "0.0.2"
+			, "socket.io": "0.7.7"
+		}
+}

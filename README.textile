@@ -1,0 +1,43 @@
+h1. インストール
+
+<pre>
+$ git clone git://github.com/kadoppe/html5nado-websocket.git
+$ cd html5nado-websocket
+$ npm install 
+</pre>
+
+h1. 各サンプルの説明
+
+サンプル起動後はブラウザから「http://localhost/chat.html」にアクセスすることで動作を確認できます。
+
+h2. template
+
+チャットアプリのひな形です。以下のコマンドで起動できます。
+
+<pre>
+$ sudo node template/app.js
+</pre>
+
+h2. pattern_a
+
+Node WebSocket Serverを使用したチャットサンプルです。以下のコマンドで起動できます。
+
+<pre>
+$ sudo node pattern_a/app.js
+</pre>
+
+h2. pattern_b
+
+Socket.IOを使用したチャットサンプルです。以下のコマンドで起動できます。
+
+<pre>
+$ sudo node pattern_b/app.js
+</pre>
+
+h2. pattern_c
+
+Pusherを使用したチャットサンプルです。以下のコマンドで起動できます。
+
+<pre>
+$ sudo node pattern_c/app.js
+</pre>
